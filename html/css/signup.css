@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .bg-custom {
+    background-color: #2C3E50; /* Deep blue background */
+  }
+  
+  .card {
+    max-width: 400px;
+    border-radius: 15px;
+  }
+  
+  h3 {
+    font-weight: bold;
+    color: #34495E;
+  }
+  
+  .form-control {
+    border: none;
+    border-bottom: 2px solid #34495E;
+    border-radius: 0;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+    color: #34495E;
+  }
+  
+  .btn-primary {
+    background-color: #34495E;
+    border: none;
+    border-radius: 25px;
+  }
+  
+  .text-primary {
+    color: #E67E22;
+  }
+  
+  .text-primary:hover {
+    color: #D35400;
+  }
+  
