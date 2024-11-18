@@ -771,11 +771,22 @@ button {
     padding-top: 20px;
 }
 
-.email_text {
-  display: inline-block; /* Allows the text to wrap */
-  word-wrap: break-word; /* Ensures long words or emails break into the next line */
-  max-width: 100%; /* Prevents overflow beyond the parent container */
+.email_wrapper {
+  display: flex; /* Align children horizontally */
+  align-items: center; /* Vertically align icon and text */
+  gap: 10px; /* Add space between the icon and text */
 }
+
+.email_text {
+  word-wrap: break-word; /* Ensure text breaks if it's too long */
+  flex: 1; /* Allow the text to take remaining space */
+}
+
+.location_text img {
+  max-width: 20px; /* Adjust icon size as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
 
 .massage_text {
     width: 100%;
