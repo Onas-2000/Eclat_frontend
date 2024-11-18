@@ -770,6 +770,13 @@ button {
     border: 0px;
     padding-top: 20px;
 }
+
+.email_text {
+  display: inline-block; /* Allows the text to wrap */
+  word-wrap: break-word; /* Ensures long words or emails break into the next line */
+  max-width: 100%; /* Prevents overflow beyond the parent container */
+}
+
 .massage_text {
     width: 100%;
     float: left;
